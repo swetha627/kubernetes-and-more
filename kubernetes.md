@@ -7,7 +7,7 @@
   kubectl rollout undo deployment/my-app --to-revision=2 
 
 
-### Storage in k8s:
+#### Storage in k8s:
   PV and PVC 
-  ### Static Provisioning: PV is created manually with specific configuration
-  ### Dynamic Provisioning: PV is created dynamically when PVC ic created
+  ##### Static Provisioning: PV is created manually with specific configuration
+  ##### Dynamic Provisioning: PV is created dynamically when PVC ic created
