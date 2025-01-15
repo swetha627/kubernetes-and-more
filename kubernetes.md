@@ -9,5 +9,5 @@
 
 #### Storage in k8s:
   PV and PVC 
-  ##### Static Provisioning: PV is created manually with specific configuration
+  ##### Static Provisioning: PV is created manually with specific storage configuration
   ##### Dynamic Provisioning: PV is created dynamically when PVC ic created
