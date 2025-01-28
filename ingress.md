@@ -35,3 +35,11 @@ spec:
             name: scv2.default.cluster.local.svc
           port:
             number: 80
+
+
+
+
+There are three type of the path Types: Exact, Prefix, ImplementationSpecific
+
+Exact: routes to the service if it is a exact match
+Prefix: route to any url with the specified prefix
