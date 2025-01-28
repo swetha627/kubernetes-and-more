@@ -7,7 +7,7 @@ ingress does two kinds of routing:
 example for path based routing :
 
 say we have two services svc1 for home page and svc2 for blog
-now we don't have to maintain different load balancer or nodeport for each service because with the help of path based eouting in ingress we can use same ingress external ip 
+now we don't have to maintain different load balancer or nodeport for each service because with the help of path based routing in ingress we can use same ingress external ip 
 
 snippet of ingress yaml:
 
