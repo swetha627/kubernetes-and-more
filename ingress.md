@@ -1,4 +1,4 @@
-ingress is tool for routing traffic from outside the cluster to services running in the clsuter
+Ingress is tool for routing traffic from outside the cluster to services running in the clsuter
 
 there shld be an ingress controller like nginx, HAproxy installed
 
