@@ -6,7 +6,7 @@ Deployment is going to manage only set of the pods that matches the lables that 
 
 macthLables is available only in deployment, sts, job and daemonset. **for Service we will have to provide the pod lables not deployment labels**
 
-
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
