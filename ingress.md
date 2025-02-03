@@ -40,7 +40,7 @@ spec:
             name: scv2.default.cluster.local.svc
           port:
             number: 80
-
+```
 
 
 
