@@ -15,6 +15,7 @@ now we don't have to maintain different load balancer or nodeport for each servi
 
 snippet of ingress yaml:
 
+```yaml
 apiversion: networking.k8s.io/v1
 kind: ingress
 metadata:
