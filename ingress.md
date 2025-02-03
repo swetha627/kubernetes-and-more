@@ -1,7 +1,11 @@
 ingress is tool for routing traffic from outside the cluster to services running in the clsuter
+
 there shld be an ingress controller like nginx, HAproxy installed
+
 ingress does two kinds of routing:
+
 1. path based routing
+
 2. host based routing
 
 example for path based routing :
@@ -22,7 +26,7 @@ spec:
     http:
       paths:
       -  path:/home
-        pathType: Prefixx
+        pathType: Prefix
         backend:
           service:
             name: svc1.default.cluster.local.svc
