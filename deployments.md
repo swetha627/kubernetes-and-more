@@ -28,3 +28,12 @@ spec:
         image: your-docker-image:latest  # Replace with your image
         ports:
         - containerPort: 8000  # Assuming FastAPI runs on port 8000
+```
+
+
+#### you can check the rollout history of the deployment using the cmd :
+  kubectl rollout history deployment/my-app
+
+#### you can roll back to the previous deployment by the providing the revision in the below cmd:
+  kubectl rollout undo deployment/my-app --to-revision=2 
+
